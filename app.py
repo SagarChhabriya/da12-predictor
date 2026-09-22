@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 st.set_page_config(page_title='da12-predictor', page_icon="💵")
-st.header("DA12-Predictor")
+st.header("DA12-Salary Predictor")
 
 
 with open("model.pkl", "rb") as file:
