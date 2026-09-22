@@ -28,11 +28,13 @@
 	- Model serialization
 
 4. app.py (streamlit UI)
+	- pip install streamlit
 	- import libraries
 	- page, title, doc title
 	- load model
 	- define input fields: st.number_input()
 	- make prediction: st.success
+	- https://cheat-sheet.streamlit.app/
 
 5. requirements.txt
 	- module.__version__
